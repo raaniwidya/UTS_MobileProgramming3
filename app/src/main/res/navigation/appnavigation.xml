@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.uasmp3.ui.home.Fraghome"
+        android:label="Home"
+        tools:layout="@layout/fragmenthome"/>
+
+    <fragment
+        android:id="@+id/navigation_meal"
+        android:name="com.example.uasmp3.ui.meal.Fragmeal"
+        android:label="Meal"
+        tools:layout="@layout/fragmentmeal"/>
+
+    <fragment
+        android:id="@+id/navigation_exercise"
+        android:name="com.example.uasmp3.ui.exercise.Fragexercise"
+        android:label="Exercise"
+        tools:layout="@layout/fragmentexercise"/>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.uasmp3.ui.profile.Fragprofile"
+        android:label="Profile"
+        tools:layout="@layout/fragmentprofile"/>
+
+</navigation>
